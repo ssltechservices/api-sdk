@@ -1,0 +1,22 @@
+{
+    "name": "secretel/api-sdk",
+    "description": "Basic api usage for secretel",
+    "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Secretel\\ApiSdk\\": "src/Secretel/ApiSdk/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SECRETEL, S.L.",
+            "email": "organizacion@secretel.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
